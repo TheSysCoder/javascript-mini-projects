@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@100;300;700&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #a26534;
+  --secondary-color: #3471a2;
+  --tertiary-color: #7fafd6;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Saira Semi Condensed", sans-serif;
+}
+
+body {
+  background-color: #f3f3fd;
+}
+
+/* navbar */
+
+.header {
+  background-color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.logo {
+  background-color: var(--primary-color);
+  justify-content: center;
+  padding: 6px 12px;
+  color: white;
+  font-size: 22px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.navlist {
+  display: flex;
+  text-align: center;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  margin: 0 12px;
+  font-size: 16px;
+  color: var(--primary-color);
+}
